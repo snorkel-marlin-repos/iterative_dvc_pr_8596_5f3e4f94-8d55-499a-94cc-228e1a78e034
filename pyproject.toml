@@ -96,7 +96,7 @@ tests = [
     # https://github.com/docker/docker-py/issues/2902
     "pytest-docker==0.11.0; python_version < '3.10' or sys_platform != 'win32'",
     "flaky==3.7.0",
-    "pytest-timeout==2.1.0",
+    "pytest-timeout==2.4.0",
     "filelock==3.8.0",
     # optional dependencies
     "dvclive>=1.0",
